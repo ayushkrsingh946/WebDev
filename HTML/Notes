@@ -1,0 +1,14 @@
+target in Html
+tabels
+self closing tags - empty tags
+sp and div
+option+shift+up/ right
+list block level elements
+<tables rules="rows">
+    iske wajah sai ussi area mein sirrf border ayega = rows, cols,none, groups
+<table border="1">
+    iske wajah sai table border ayega
+<table cellpadding="10">
+    iske wajah sai table ke andar ka content border se door hoga
+<table cellspacing="10">
+    iske wajah sai table ke andar ke content ke beech mein gap ayega
