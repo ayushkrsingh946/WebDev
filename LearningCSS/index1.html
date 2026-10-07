@@ -6,21 +6,33 @@
     <title>Learning CSS</title>
     <style>
         /*Element Selector*/
-        p{
-            color:green;
+        p{ 
+            /* Block element */ 
+            color:green!important;
+            border: 1px solid black;
         }
+        .box {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 2px solid #000;
+            margin: 10px;
+            box-sizing: border-box;
+}
         /*ID Selector*/
         #intro{
             color:rgb(77, 77, 242);
+            border: 1px solid black;
         }
         /*Class Selector*/
         .note{
             color:red;
+            border: 1px solid black;
         }
     </style>
 </head>
 <body>
-    <h1> This is my paragraph</h1>
+    <h1 class="box"> This is my paragraph</h1>
     <p id="intro" class="note">This is my paragraph.</p>
     <p style="color: purple;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <p id="intro">This is another paragraph.</p>
