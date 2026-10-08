@@ -12,14 +12,15 @@
             color:green!important;
             border: 1px solid black;
         }
-        .box {
+        .box 
+        {
             width: 200px;
             height: 100px;
             padding: 20px;
             border: 2px solid #000;
             margin: 10px;
             box-sizing: border-box;
-}
+        }
         /*ID Selector*/
         #intro{
             color:rgb(77, 77, 242);
@@ -34,7 +35,20 @@
             color:rgb(69, 165, 0);
         }
         div + p{
-            color:yellow;
+            color:rgb(189, 9, 132);
+        }
+        /* CSS Unit */
+        .css-unit{
+            font-size: 2rem;
+            background-color: rgb(245, 64, 226);
+            height: 100px;
+        }
+        .container
+         {
+            border: 5px inset red;
+            width: 600px;
+            margin:0 auto; /* 0 top & bottom, auto left & right */
+            text-align: center;
         }
     </style>
 </head>
@@ -50,6 +64,11 @@
         </div>
         <span><p>Span P</p></span>
     </div>
-    <p>Just Another Paragraph</p>
+    <div>
+        <p class="css-unit">Just Another Paragraph</p>
+    </div>
+    <div class="container">
+        <h1>My heading in center</h1>
+    </div>
 </body>
 </html>
