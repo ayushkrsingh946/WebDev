@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  background-color: DodgerBlue;
+  border: 2px solid black;
+  width:"700px";
+  height: "200px";
+}
+
+.container div {
+  background-color: yellow;
+  height: "100px";
+  width: "100px";
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1010px;
+  flex-direction: column;
+  background-color: DodgerBlue;
+  border: 2px solid black;
+}
+.cont div
+ {
+    background-color: yellow;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: xx-large;
+ }
