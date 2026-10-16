@@ -21,8 +21,9 @@
 .cont {
   display: flex;
   flex-wrap: wrap;
+  width: 200px;
   height: 1010px;
-  flex-direction: column;
+  flex-direction: row;
   background-color: DodgerBlue;
   border: 2px solid black;
 }
