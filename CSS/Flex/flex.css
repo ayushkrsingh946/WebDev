@@ -2,8 +2,7 @@
   display: flex;
   background-color: DodgerBlue;
   border: 2px solid black;
-  width:"700px";
-  height: "200px";
+  width:"200px";
 }
 
 .container div {
@@ -18,16 +17,16 @@
   font-size: xx-large;
 }
 
-.cont {
+.cont1 {
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
+  width: 329px;
   height: 1010px;
-  flex-direction: row;
+  flex-direction: column;
   background-color: DodgerBlue;
   border: 2px solid black;
 }
-.cont div
+.cont1 div
  {
     background-color: yellow;
     width: 100px;
@@ -38,3 +37,46 @@
     text-align: center;
     font-size: xx-large;
  }
+
+ .cont2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 329px;
+  height: 1010px;
+  flex-direction: row;
+  background-color: DodgerBlue;
+  border: 2px solid black;
+}
+.cont2 div
+ {
+    background-color: yellow;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: xx-large;
+ }
+ 
+ .cont3 {
+    display: flex;
+    background-color: purple;
+    border: 2px solid black;
+    gap: 5px;
+    justify-content: flex-end;
+    height: 120px;
+}
+
+.cont3 div {
+  background-color: orange;
+  width: 100px;
+  height: 55px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: xx-large;
+
+}
